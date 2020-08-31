@@ -38,6 +38,13 @@ const App: React.FC = () => {
           </Route>
           <Route path="/">
             <div className="home-container">
+              <MetaTags>
+                <title>jackson prowell</title>
+                <meta
+                  name="description"
+                  content="My personal site. Check out my virtual resume, listen to some of my music, or connect with me."
+                ></meta>
+              </MetaTags>
               <img id="logo" src={process.env.PUBLIC_URL + "/boat.jpg"} />
               <h1 className="no-bottom-margin">jackson prowell</h1>
               <p className="italics small">web developer / general tinkerer</p>

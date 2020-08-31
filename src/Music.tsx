@@ -135,8 +135,8 @@ const Music = () => {
   return (
     <div className="container">
       <MetaTags>
-        <title>jackson prowell</title>
-        <meta name="description" content="My personal site."></meta>
+        <title>music : jackson prowell</title>
+        <meta name="description" content="Check out some of my music."></meta>
       </MetaTags>
       <h1>music</h1>
       <nav className="two-col-grid">
