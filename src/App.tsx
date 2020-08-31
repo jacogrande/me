@@ -18,14 +18,13 @@ import Connect from "./Connect";
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header />
-
+        <p>test</p>
         <Switch>
           <Route path="/music">
             <Music />
           </Route>
-          a
           <Route path="/journal/:category/:id">
             <Journal />
           </Route>
