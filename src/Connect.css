@@ -1,0 +1,31 @@
+.description {
+  margin-left: 5%;
+  line-height: 25px;
+  color: #555;
+}
+
+.description-full {
+  width: 90%;
+  margin-left: 5%;
+  line-height: 25px;
+  color: #555;
+}
+
+.connect-footer {
+  color: #e63946;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.icon {
+  color: #e63946;
+  margin-right: 15px;
+  margin-top: -3px;
+}
+
+@media only screen and (min-width: 768px) {
+  .description {
+    width: 50%;
+    min-width: 400px;
+  }
+}

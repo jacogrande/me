@@ -1,38 +1,149 @@
+/* COLORS:
+  red: #E63946
+  white: #F1FAEE
+  sky blue: #A8DADC
+  blue: #457B9D
+  navy: #1D3557
+*/
+
+.red {
+  color: #e63946;
+}
+
+.white {
+  color: #f1faee;
+}
+
+.sky-blue {
+  color: #a8dadc;
+}
+
+.blue {
+  color: #457b9d;
+}
+
+.navy {
+  color: #1d3557;
+}
+
+.gray {
+  color: #555;
+}
+
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(19, 33, 51);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-container {
+  width: 75%;
+  height: 90%;
+  position: absolute;
+  left: 12.5%;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inline-flex {
+  display: inline-flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#logo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+h1 {
+  color: rgb(14, 25, 39);
+}
+
+.container {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-padding {
+  padding-bottom: 50px;
+}
+
+.content-container {
+  width: 60%;
+  min-height: 500px;
+  /* background: white; */
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 40px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.italics {
+  font-style: italic;
+  color: #999;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-centered {
+  text-align: center;
+}
+
+.story {
+  width: 70%;
+  min-width: 200px;
+  margin-left: 15%;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0px;
+}
+
+.no-top-margin {
+  margin-top: 0px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.margin-top {
+  margin-top: 25px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.social-icon {
+  margin: 0px 10px;
+}
+
+.icon-bump-down {
+  margin-bottom: -2px;
+}
+.indent {
+  text-indent: 40px;
+}
+
+.link {
+  color: #457b9d;
+  transition: all 0.05s;
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: 0.8;
 }
