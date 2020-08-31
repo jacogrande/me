@@ -52,7 +52,7 @@ const Connect = () => {
               aria-label="link to my github"
             >
               <img
-                src="/github.png"
+                src={process.env.PUBLIC_URL + "/github.png"}
                 className="social-icon cursor-pointer"
                 width={20}
                 height={20}

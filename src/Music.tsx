@@ -78,22 +78,22 @@ const Music = () => {
     <img
       id="astronaut"
       className={selection === "event horizon" ? "fade-in-right" : "fade-out"}
-      src="/art/astronaut.png"
+      src={process.env.PUBLIC_URL + "/art/astronaut.png"}
     />,
     <img
       className={selection === "event horizon" ? "fade-in-left" : "fade-out"}
       id="planet"
-      src="/art/planet.png"
+      src={process.env.PUBLIC_URL + "/art/planet.png"}
     />,
     <img
       className={selection === "event horizon" ? "fade-in" : "fade-out"}
       id="ship"
-      src="/art/ship.png"
+      src={process.env.PUBLIC_URL + "/art/ship.png"}
     />,
     <img
       className={selection === "event horizon" ? "fade-in-left" : "fade-out"}
       id="astronaut2"
-      src="/art/astronaut2.png"
+      src={process.env.PUBLIC_URL + "/art/astronaut2.png"}
     />,
   ];
 
@@ -135,8 +135,8 @@ const Music = () => {
   return (
     <div className="container">
       <MetaTags>
-        <title>music : jackson prowell</title>
-        <meta name="description" content="Check out some of my music."></meta>
+        <title>jackson prowell</title>
+        <meta name="description" content="My personal site."></meta>
       </MetaTags>
       <h1>music</h1>
       <nav className="two-col-grid">

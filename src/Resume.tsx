@@ -154,7 +154,7 @@ const Resume = () => {
             <div className="node-container">
               <NavLink to={node.href as string}>
                 <div className={`node node${i}`}>
-                  <img src={node.image} alt={node.title} />
+                  <img src={process.env.PUBLIC_URL + node.image} alt={node.title} />
                 </div>
               </NavLink>
               <p className="no-bottom-margin">{node.title}</p>

@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import BarcodeDevLog from "./BarcodeDevLog";
 
 export interface IEntry {

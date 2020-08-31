@@ -24,7 +24,7 @@ interface IAudio {
 const Audio = (props: IAudio) => {
   return (
     <AudioPlayer
-      src={props.src}
+      src={process.env.PUBLIC_URL + props.src}
       customIcons={customIcons}
       className="audio-player"
       progressJumpStep={10000}

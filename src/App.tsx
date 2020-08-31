@@ -1,12 +1,9 @@
 import React from "react";
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { Tooltip } from "@material-ui/core";
+import MetaTags from "react-meta-tags";
 
 import Nav from "./Nav";
 import Music from "./Music";
@@ -20,7 +17,6 @@ const App: React.FC = () => {
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>
         <Header />
-        <p>test</p>
         <Switch>
           <Route path="/music">
             <Music />
@@ -42,7 +38,7 @@ const App: React.FC = () => {
           </Route>
           <Route path="/">
             <div className="home-container">
-              <img id="logo" src="/boat.jpg" />
+              <img id="logo" src={process.env.PUBLIC_URL + "/boat.jpg"} />
               <h1 className="no-bottom-margin">jackson prowell</h1>
               <p className="italics small">web developer / general tinkerer</p>
               <Nav />
@@ -53,7 +49,7 @@ const App: React.FC = () => {
                     aria-label="link to my github"
                   >
                     <img
-                      src="/github.png"
+                      src={process.env.PUBLIC_URL + "/github.png"}
                       className="social-icon cursor-pointer"
                       width={20}
                       height={20}

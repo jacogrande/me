@@ -15,7 +15,7 @@ const Journal = () => {
     const entry = devLogEntries.find((movie) => movie.id === id);
     return (
       <div className="container">
-        <img src={entry?.photoPath} className="banner" alt={entry?.photoAlt} />
+        <img src={process.env.PUBLIC_URL + entry?.photoPath} className="banner" alt={entry?.photoAlt} />
         <h2>{entry?.title}</h2>
         <p className="italics small">{entry?.description}</p>
         <div>{entry?.content}</div>
@@ -27,7 +27,7 @@ const Journal = () => {
     <div className="covers-container">
       {devLogEntries.map((entry: IEntry) => (
         <NavLink to={`/journal/devLog/${entry.id}`} className="cover col" key={entry.title}>
-          <img src={entry.photoPath} className="cover-photo" alt={entry.title} />
+          <img src={process.env.PUBLIC_URL + entry.photoPath} className="cover-photo" alt={entry.title} />
           <h3 className="cover-title">{entry.title}</h3>
           <p className="italics small cover-description">{entry.description}</p>
         </NavLink>

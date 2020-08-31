@@ -27,8 +27,8 @@ const Barcode = () => (
       <em>Bambi</em> compressed into one long line. I was immediately inspired
       by the colors in the image, but I disliked how there was vertical
       gradation within each frame. Instead, I wanted to only see the dominant
-      color of each frame, so I got to work building my own color
-      barcode generator.
+      color of each frame, so I got to work building my own color barcode
+      generator.
     </p>
     <p className="description indent">
       I built the program using python3, opencv-python, sklearn, and numpy. In
@@ -46,20 +46,40 @@ const Barcode = () => (
       </NavLink>
       . Check out some of my favorite movie barcodes generated with the script:
     </p>
-    <img src="/covers/barcode.jpg" className="project-barcode" alt="Fantastic Planet barcode"/>
+    <img
+      src={process.env.PUBLIC_URL + "/covers/barcode.jpg"}
+      className="project-barcode"
+      alt="Fantastic Planet barcode"
+    />
     <p className="description italics">
       René Laloux's classic animated science fiction film "Fantastic Planet"
     </p>
-    <img src="/covers/barcodes/treeOfLife.jpg" className="project-barcode" alt="Tree of Life barcode"/>
+    <img
+      src={process.env.PUBLIC_URL + "/covers/barcodes/treeOfLife.jpg"}
+      className="project-barcode"
+      alt="Tree of Life barcode"
+    />
     <p className="description italics">
       Terrence Malick's very green epic "Tree of Life"
     </p>
-    <img src="/covers/barcodes/starWars.jpg" className="project-barcode" alt="Star Wars: A New Hope barcode"/>
-    <img src="/covers/barcodes/starWarsGray.jpg" className="project-barcode" alt="Star Wars: A New Hope barcode in grayscale"/>
+    <img
+      src={process.env.PUBLIC_URL + "/covers/barcodes/starWars.jpg"}
+      className="project-barcode"
+      alt="Star Wars: A New Hope barcode"
+    />
+    <img
+      src={process.env.PUBLIC_URL + "/covers/barcodes/starWarsGray.jpg"}
+      className="project-barcode"
+      alt="Star Wars: A New Hope barcode in grayscale"
+    />
     <p className="description italics">
       "Star Wars: A New Hope" in color and in grayscale.
     </p>
-    <img src="/covers/barcodes/bladeRunner.jpg" className="project-barcode" alt="Blade Runner: 2049 barcode" />
+    <img
+      src={process.env.PUBLIC_URL + "/covers/barcodes/bladeRunner.jpg"}
+      className="project-barcode"
+      alt="Blade Runner: 2049 barcode"
+    />
     <p className="description italics">
       Denis Villeneuve's visually stunning "Blade Runner: 2049"
     </p>

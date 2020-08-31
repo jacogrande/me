@@ -25,7 +25,7 @@ const Header = () => {
     return (
       <div className="header">
         <NavLink to="/">
-          <img src="/logo.png" id="logo-small" alt="jackson prowell logo" />
+          <img src={process.env.PUBLIC_URL + "/logo.png"} id="logo-small" alt="jackson prowell logo" />
         </NavLink>
         <nav className="float-right" id="large-nav">
           <NavLink
