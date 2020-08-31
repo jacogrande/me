@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  useLocation,
 } from "react-router-dom";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { Tooltip } from "@material-ui/core";

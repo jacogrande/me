@@ -1,6 +1,6 @@
 # Me
 
-My [personal site](https://jacogrande.github.io/me).
+My [personal site](https://jacogrande.github.io/).
 
 *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 
