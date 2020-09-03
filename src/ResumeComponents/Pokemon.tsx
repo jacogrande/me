@@ -21,6 +21,7 @@ const Pokemon = () => (
       <a
         href="https://www.britannica.com/art/tragedy-literature/Theory-of-tragedy"
         className="link"
+        target="_blank"
       >
         story.
       </a>
@@ -44,7 +45,7 @@ const Pokemon = () => (
     <p className="description indent margin-top">
       To improve the look of the game engine's map system, I had to add animated
       tiles. These map tiles iterate through an array of sprites after every few{" "}
-      <a href="https://en.wikipedia.org/wiki/Delta_timing" className="link">
+      <a href="https://en.wikipedia.org/wiki/Delta_timing" className="link" target="_blank">
         ticks
       </a>
       , creating a consistently timed animation. Check it out:

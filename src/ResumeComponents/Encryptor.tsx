@@ -23,6 +23,7 @@ const Encryptor = () => {
         <a
           href="https://www.forbes.com/sites/jjcolao/2012/03/22/codecademy/#7cea6f743c6d"
           className="link"
+          target="_blank"
         >
           over 400,000 users{" "}
         </a>
@@ -44,6 +45,7 @@ const Encryptor = () => {
         <a
           href="https://assets.newatlas.com/dims4/default/f50e92b/2147483647/strip/true/crop/1182x788+98+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fhollywood-hacking-2000s-4.png"
           className="link"
+          target="_blank"
         >
           Swordfish.
         </a>{" "}

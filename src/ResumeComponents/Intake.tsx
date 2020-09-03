@@ -31,7 +31,7 @@ const Intake = () => (
       site. I prototyped the site in 7 days using Node.js and Express.js for the
       back-end, Passport.js for user authentication, MongoDB and Mongoose for
       the database, and EJS, HTML5, and CSS for the front-end. By the end of the
-      week, I had a working demo that allowed users to add movies to their
+      week, I had a working demo that allowed users to add movies to thei
       accounts, and the site would automatically generate statistics based on
       the inputted movies.
     </p>
@@ -45,7 +45,7 @@ const Intake = () => (
       designed a mobile version of the site using CSS media queries. The final
       result is a fully functional online platform that is starting to gain new
       users. Check it out at{" "}
-      <a href="https://www.intake.space" className="link">
+      <a href="https://www.intake.space" className="link" target="_blank">
         intake.space
       </a>
     </p>

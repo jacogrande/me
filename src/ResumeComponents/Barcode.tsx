@@ -36,6 +36,7 @@ const Barcode = () => (
       <a
         href="https://en.wikipedia.org/wiki/K-means_clustering"
         className="link"
+        target="_blank"
       >
         k-means clustering
       </a>{" "}

@@ -17,7 +17,7 @@ const Pie = () => (
     <p className="description indent margin-top">
       In my freshman year of highschool, I was invited to be part of the
       school's robotics team that competed in the{" "}
-      <a href="https://pioneers.berkeley.edu/" className="link">
+      <a href="https://pioneers.berkeley.edu/" className="link" target="_blank">
         PiE robotics{" "}
       </a>{" "}
       league: a competition held by a group of UC Berkeley engineering students.{" "}
@@ -28,12 +28,12 @@ const Pie = () => (
     </p>
     <p className="description indent">
       I was one of two programmers on the team, and it was my responsibility to
-      program functionality for the ideas that the team came up with. The robot was
-      controlled by an Arduino that we could ssh into and load our updated code
-      onto. My first task as one of the team's programmers was to write a script
-      that took XBox controller input and mapped it to control the two motors
-      that were geared to the robot's treads. I used a python3 library called
-      xbox360controller for receiving controller inputs.
+      program functionality for the ideas that the team came up with. The robot
+      was controlled by an Arduino that we could ssh into and load our updated
+      code onto. My first task as one of the team's programmers was to write a
+      script that took XBox controller input and mapped it to control the two
+      motors that were geared to the robot's treads. I used a python3 library
+      called xbox360controller for receiving controller inputs.
     </p>
     <p className="description indent">
       The competition was split up into two sections: The driver section where a
@@ -42,12 +42,12 @@ const Pie = () => (
       autonomously pick up as many balls as possible. I was in charge of
       programming the robot's autonomous capabilities. The challenge was that
       all of the tennis balls were placed on a long line of white tape, so our
-      robot needed to be capable of autonomously following a line of tape on the ground. Our
-      solution was to put three light sensors on the bottom of the robot chassis
-      so that it could tell where the line of tape was. I programmed a
-      conditional into the robot's game loop that would turn the chassis if the
-      line of tape (or the higher light value) touched one of the sensors beside
-      the middle sensor.
+      robot needed to be capable of autonomously following a line of tape on the
+      ground. Our solution was to put three light sensors on the bottom of the
+      robot chassis so that it could tell where the line of tape was. I
+      programmed a conditional into the robot's game loop that would turn the
+      chassis if the line of tape (or the higher light value) touched one of the
+      sensors beside the middle sensor.
     </p>
     <p className="description indent">
       The team worked tirelessly, sometimes staying at school until midnight, to

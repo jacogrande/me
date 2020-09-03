@@ -19,6 +19,7 @@ const Hashbrowns = () => (
       <a
         href="https://www.coursera.org/account/accomplishments/records/JEWD9LW8N9XL"
         className="link"
+        target="_blank"
       >
         learned the basics{" "}
       </a>{" "}
@@ -27,6 +28,7 @@ const Hashbrowns = () => (
       <a
         href="https://en.wikipedia.org/wiki/SHA-1#SHA-1_pseudocode"
         className="link"
+        target="_blank"
       >
         pseudocode
       </a>
