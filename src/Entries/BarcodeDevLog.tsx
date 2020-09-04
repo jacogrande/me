@@ -9,6 +9,7 @@ const BarcodeDevLog = () => {
         <a
           href="https://www.cartoonbrew.com/wp-content/uploads/2013/06/Bambi-1280x600.jpg"
           className="link"
+          target="_blank"
         >
           image of every frame of the movie <em>Bambi</em> compressed into one
           long movie "barcode"
@@ -24,6 +25,7 @@ const BarcodeDevLog = () => {
         <a
           href="https://stackoverflow.com/questions/51474421/extracting-frames-every-second-of-all-videos-in-folder"
           className="link"
+          target="_blank"
         >
           example code
         </a>{" "}
@@ -49,6 +51,7 @@ const BarcodeDevLog = () => {
         <a
           href="https://adamspannbauer.github.io/2018/03/02/app-icon-dominant-colors/"
           className="link"
+          target="_blank"
         >
           article by Adam Spannbauer
         </a>
@@ -57,6 +60,7 @@ const BarcodeDevLog = () => {
         <a
           href="https://en.wikipedia.org/wiki/K-means_clustering"
           className="link"
+          target="_blank"
         >
           k-means clustering
         </a>{" "}
@@ -66,6 +70,7 @@ const BarcodeDevLog = () => {
         <a
           href="https://en.wikipedia.org/wiki/Voronoi_diagram"
           className="link"
+          target="_blank"
         >
           voronoi diagram
         </a> {' '}
