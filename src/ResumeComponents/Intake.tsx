@@ -31,7 +31,7 @@ const Intake = () => (
       site. I prototyped the site in 7 days using Node.js and Express.js for the
       back-end, Passport.js for user authentication, MongoDB and Mongoose for
       the database, and EJS, HTML5, and CSS for the front-end. By the end of the
-      week, I had a working demo that allowed users to add movies to thei
+      week, I had a working demo that allowed users to add movies to their
       accounts, and the site would automatically generate statistics based on
       the inputted movies.
     </p>
